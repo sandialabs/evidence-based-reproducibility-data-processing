@@ -8,5 +8,5 @@ Script descriptions:
 - `transformSurveyData.py` converts the categorical data that was just combined intro numerical data
 - `analyzeMaxDiffUtilities.py` takes the transformed data and estimates multinomial logit MaxDiff utilities from the survey responses
 - `analyzeSurveyData.py` looks for correlations and such in the survey responses
-- `generatePlots.py` makes many Likert and box and whisker plots including Figure 2
-- `prioritiesPlot.py` makes several more plots related to software quality priorities including Figure 3
+- `generatePlots.py` makes many Likert and box and whisker plots including Figure 2 from the paper
+- `prioritiesPlot.py` makes several more plots related to software quality priorities including Figure 3 from the paper
