@@ -1,10 +1,20 @@
-# pip install -r requirements.txt
+pip install -r requirements.txt
 cd scripts
 python combineSurveyData.py \
-  ../raw_data/fake_data_1.csv \
-  ../raw_data/fake_data_max-diff_1.csv \
-  ../raw_data/fake_data_2.csv \
-  ../raw_data/fake_data_max-diff_2.csv
+  ../raw_data/General_Survey_of_Reproducibility_and_Software_Quality_Priorities_closed-max-diff-responses-2023-08-19.csv \
+  ../raw_data/General_Survey_of_Reproducibility_and_Software_Quality_Priorities_closed-responses-2023-08-19.csv \
+  ../raw_data/General_Survey_of_Reproducibility_and_Software_Quality_Priorities_open-max-diff-responses-2023-08-19.csv \
+  ../raw_data/General_Survey_of_Reproducibility_and_Software_Quality_Priorities_open-responses-2023-08-19.csv \
+  ../raw_data/Reproducibility_and_Quality_Survey_ACM_REP23_-max-diff-responses-2023-08-19.csv \
+  ../raw_data/Reproducibility_and_Quality_Survey_ACM_REP23_-responses-2023-08-19.csv \
+  ../raw_data/Reproducibility_and_Quality_Survey_Case_Study_Partners_-max-diff-responses-2023-08-19.csv \
+  ../raw_data/Reproducibility_and_Quality_Survey_Case_Study_Partners_-responses-2023-08-19.csv \
+  ../raw_data/_Astro_General_Survey_of_Reproducibility_and_Software_Quality_Priorities-max-diff-responses-2023-08-19.csv \
+  ../raw_data/_Astro_General_Survey_of_Reproducibility_and_Software_Quality_Priorities-responses-2023-08-19.csv \
+  ../raw_data/_IDEAS_General_Survey_of_Reproducibility_and_Software_Quality_Priorities-max-diff-responses-2023-08-19.csv \
+  ../raw_data/_IDEAS_General_Survey_of_Reproducibility_and_Software_Quality_Priorities-responses-2023-08-19.csv \
+  ../raw_data/_US_RSE_General_Survey_of_Reproducibility_and_Software_Quality_Priorities-max-diff-responses-2023-08-19.csv \
+  ../raw_data/_US_RSE_General_Survey_of_Reproducibility_and_Software_Quality_Priorities-responses-2023-08-19.csv
 python transformSurveyData.py \
   data/regularSurveyData.csv \
   data/maxDiffSurveyData.csv
